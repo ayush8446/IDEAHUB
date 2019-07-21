@@ -1,0 +1,93 @@
+*{margin: 0px 0px 0px 0px;
+  padding: 0;
+  box-sizing :border-box;
+  background-color: beige;  
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'lato','arial','sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.contact-form{
+    width: 60%;
+    margin: 0px 200px 200px 550px;
+    padding-bottom: 30px;
+}
+
+h1{
+    text-indent: inherit;
+    margin: 200px 200px 30px 550px;
+    color:#FC427B ;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+select,
+textarea{
+    width:45%;
+    padding:10px;
+    border-radius:3px;
+    border:1px solid #ccc; 
+}
+
+input[type=submit]
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s
+}
+
+
+input[type=submit]{
+    background-color: #fd79a8;
+    border: 1px solid #fd79a8;
+    color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color:#FC427B;
+}
+
+
+input[type=submit]{
+    border: 1px solid #FC427B;
+}
+
+input:focus {
+    outline:none;
+}
+
+a{
+    color:#f8a5c2;
+    text-decoration: none;
+}
+
+a:link,
+a:visited{color:#f8a5c2;
+    
+}
+
+a:hover,
+a:active{color:#e84393;
+    text-decoration:none;
+    
+}
+
